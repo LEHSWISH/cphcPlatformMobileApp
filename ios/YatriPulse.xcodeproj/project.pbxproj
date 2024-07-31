@@ -1,0 +1,880 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007322873DB4484A9B42DCA0 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 524D8F9F1B9B49ACAD504AEF /* Roboto-MediumItalic.ttf */; };
+		00E356F31AD99517003FC87E /* YatriPulseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* YatriPulseTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-YatriPulse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-YatriPulse.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		472D66104D5F4885A9563E48 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 808DA946365E4B83B3469C6F /* Roboto-Thin.ttf */; };
+		658C55DE42BB483684623CD0 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F707206BE6064F27A48E1BA5 /* Roboto-Regular.ttf */; };
+		68EB98BC0CD141C3A1A19588 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAA2E8FAF78149B59FD928AF /* Roboto-Medium.ttf */; };
+		7699B88040F8A987B510C191 /* libPods-YatriPulse-YatriPulseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-YatriPulse-YatriPulseTests.a */; };
+		7C07394E35764FA2B06E373B /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD10E186E0EC46988AF9A40F /* Roboto-Italic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8B2656DD84F64CA381A671E1 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1AA3E6A15DE48D6812F0BDB /* Roboto-Light.ttf */; };
+		A59297E1A92B44BAA4F5C3D7 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1FB2EA9D1684AE18CDD04FD /* Roboto-Black.ttf */; };
+		BB164C10E1354B9B8E53350F /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCEFCA6D1958449197F45522 /* Roboto-LightItalic.ttf */; };
+		C11865202B721695005256E8 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C118650D2B721694005256E8 /* EvilIcons.ttf */; };
+		C11865212B721695005256E8 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C118650D2B721694005256E8 /* EvilIcons.ttf */; };
+		C11865222B721695005256E8 /* FontAwesome6_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C118650E2B721694005256E8 /* FontAwesome6_Regular.ttf */; };
+		C11865232B721695005256E8 /* FontAwesome6_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C118650E2B721694005256E8 /* FontAwesome6_Regular.ttf */; };
+		C11865242B721695005256E8 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C118650F2B721694005256E8 /* MaterialIcons.ttf */; };
+		C11865252B721695005256E8 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C118650F2B721694005256E8 /* MaterialIcons.ttf */; };
+		C11865262B721695005256E8 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865102B721694005256E8 /* Feather.ttf */; };
+		C11865272B721695005256E8 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865102B721694005256E8 /* Feather.ttf */; };
+		C11865282B721695005256E8 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865112B721694005256E8 /* SimpleLineIcons.ttf */; };
+		C11865292B721695005256E8 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865112B721694005256E8 /* SimpleLineIcons.ttf */; };
+		C118652A2B721695005256E8 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865122B721694005256E8 /* AntDesign.ttf */; };
+		C118652B2B721695005256E8 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865122B721694005256E8 /* AntDesign.ttf */; };
+		C118652C2B721695005256E8 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865132B721694005256E8 /* FontAwesome5_Brands.ttf */; };
+		C118652D2B721695005256E8 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865132B721694005256E8 /* FontAwesome5_Brands.ttf */; };
+		C118652E2B721695005256E8 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865142B721694005256E8 /* FontAwesome5_Regular.ttf */; };
+		C118652F2B721695005256E8 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865142B721694005256E8 /* FontAwesome5_Regular.ttf */; };
+		C11865302B721695005256E8 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865152B721694005256E8 /* Foundation.ttf */; };
+		C11865312B721695005256E8 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865152B721694005256E8 /* Foundation.ttf */; };
+		C11865322B721695005256E8 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865162B721694005256E8 /* MaterialCommunityIcons.ttf */; };
+		C11865332B721695005256E8 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865162B721694005256E8 /* MaterialCommunityIcons.ttf */; };
+		C11865342B721695005256E8 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865172B721694005256E8 /* Zocial.ttf */; };
+		C11865352B721695005256E8 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865172B721694005256E8 /* Zocial.ttf */; };
+		C11865362B721695005256E8 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865182B721694005256E8 /* Fontisto.ttf */; };
+		C11865372B721695005256E8 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865182B721694005256E8 /* Fontisto.ttf */; };
+		C11865382B721695005256E8 /* FontAwesome6_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865192B721695005256E8 /* FontAwesome6_Solid.ttf */; };
+		C11865392B721695005256E8 /* FontAwesome6_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11865192B721695005256E8 /* FontAwesome6_Solid.ttf */; };
+		C118653A2B721695005256E8 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C118651A2B721695005256E8 /* Entypo.ttf */; };
+		C118653B2B721695005256E8 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C118651A2B721695005256E8 /* Entypo.ttf */; };
+		C118653C2B721695005256E8 /* FontAwesome6_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C118651B2B721695005256E8 /* FontAwesome6_Brands.ttf */; };
+		C118653D2B721695005256E8 /* FontAwesome6_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C118651B2B721695005256E8 /* FontAwesome6_Brands.ttf */; };
+		C118653E2B721695005256E8 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C118651C2B721695005256E8 /* Ionicons.ttf */; };
+		C118653F2B721695005256E8 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C118651C2B721695005256E8 /* Ionicons.ttf */; };
+		C11865402B721695005256E8 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C118651D2B721695005256E8 /* Octicons.ttf */; };
+		C11865412B721695005256E8 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C118651D2B721695005256E8 /* Octicons.ttf */; };
+		C11865422B721695005256E8 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C118651E2B721695005256E8 /* FontAwesome.ttf */; };
+		C11865432B721695005256E8 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C118651E2B721695005256E8 /* FontAwesome.ttf */; };
+		C11865442B721695005256E8 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C118651F2B721695005256E8 /* FontAwesome5_Solid.ttf */; };
+		C11865452B721695005256E8 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C118651F2B721695005256E8 /* FontAwesome5_Solid.ttf */; };
+		D52CF83F01E14D129C6AAE66 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65AE0FE9D0064465B834A279 /* Roboto-Bold.ttf */; };
+		D5EA1882AA134FABB8C0C830 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0339C0C47884A8AB6AB97E5 /* Roboto-BoldItalic.ttf */; };
+		F4AC6DF1EFB14FC5B100C55B /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAA3E9D342D642719DDD7F22 /* Roboto-BlackItalic.ttf */; };
+		FFAC326C83C84753B3C5B812 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 229E4DCA8E4441B1BF53228D /* Roboto-ThinItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = YatriPulse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* YatriPulseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YatriPulseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* YatriPulseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YatriPulseTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* YatriPulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YatriPulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = YatriPulse/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = YatriPulse/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = YatriPulse/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = YatriPulse/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = YatriPulse/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-YatriPulse-YatriPulseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YatriPulse-YatriPulseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		229E4DCA8E4441B1BF53228D /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../src/assets/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-YatriPulse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YatriPulse.debug.xcconfig"; path = "Target Support Files/Pods-YatriPulse/Pods-YatriPulse.debug.xcconfig"; sourceTree = "<group>"; };
+		524D8F9F1B9B49ACAD504AEF /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../src/assets/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-YatriPulse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YatriPulse.release.xcconfig"; path = "Target Support Files/Pods-YatriPulse/Pods-YatriPulse.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-YatriPulse-YatriPulseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YatriPulse-YatriPulseTests.debug.xcconfig"; path = "Target Support Files/Pods-YatriPulse-YatriPulseTests/Pods-YatriPulse-YatriPulseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-YatriPulse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YatriPulse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AE0FE9D0064465B834A279 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		808DA946365E4B83B3469C6F /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../src/assets/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = YatriPulse/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-YatriPulse-YatriPulseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YatriPulse-YatriPulseTests.release.xcconfig"; path = "Target Support Files/Pods-YatriPulse-YatriPulseTests/Pods-YatriPulse-YatriPulseTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1FB2EA9D1684AE18CDD04FD /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../src/assets/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		BAA3E9D342D642719DDD7F22 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../src/assets/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		C0339C0C47884A8AB6AB97E5 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../src/assets/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C118650D2B721694005256E8 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		C118650E2B721694005256E8 /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome6_Regular.ttf"; sourceTree = "<group>"; };
+		C118650F2B721694005256E8 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		C11865102B721694005256E8 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		C11865112B721694005256E8 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		C11865122B721694005256E8 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		C11865132B721694005256E8 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		C11865142B721694005256E8 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		C11865152B721694005256E8 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		C11865162B721694005256E8 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		C11865172B721694005256E8 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		C11865182B721694005256E8 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		C11865192B721695005256E8 /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome6_Solid.ttf"; sourceTree = "<group>"; };
+		C118651A2B721695005256E8 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		C118651B2B721695005256E8 /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome6_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome6_Brands.ttf"; sourceTree = "<group>"; };
+		C118651C2B721695005256E8 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		C118651D2B721695005256E8 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		C118651E2B721695005256E8 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		C118651F2B721695005256E8 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		C1AA3E6A15DE48D6812F0BDB /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../src/assets/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		CAA2E8FAF78149B59FD928AF /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../src/assets/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		DCEFCA6D1958449197F45522 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../src/assets/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		DD10E186E0EC46988AF9A40F /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../src/assets/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F707206BE6064F27A48E1BA5 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-YatriPulse-YatriPulseTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-YatriPulse.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* YatriPulseTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* YatriPulseTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = YatriPulseTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* YatriPulse */ = {
+			isa = PBXGroup;
+			children = (
+				C118650C2B7213CF005256E8 /* Fonts */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = YatriPulse;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-YatriPulse.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-YatriPulse-YatriPulseTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42CAA98F2ED04F1EA76DE074 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1FB2EA9D1684AE18CDD04FD /* Roboto-Black.ttf */,
+				BAA3E9D342D642719DDD7F22 /* Roboto-BlackItalic.ttf */,
+				65AE0FE9D0064465B834A279 /* Roboto-Bold.ttf */,
+				C0339C0C47884A8AB6AB97E5 /* Roboto-BoldItalic.ttf */,
+				DD10E186E0EC46988AF9A40F /* Roboto-Italic.ttf */,
+				C1AA3E6A15DE48D6812F0BDB /* Roboto-Light.ttf */,
+				DCEFCA6D1958449197F45522 /* Roboto-LightItalic.ttf */,
+				CAA2E8FAF78149B59FD928AF /* Roboto-Medium.ttf */,
+				524D8F9F1B9B49ACAD504AEF /* Roboto-MediumItalic.ttf */,
+				F707206BE6064F27A48E1BA5 /* Roboto-Regular.ttf */,
+				808DA946365E4B83B3469C6F /* Roboto-Thin.ttf */,
+				229E4DCA8E4441B1BF53228D /* Roboto-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* YatriPulse */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* YatriPulseTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				42CAA98F2ED04F1EA76DE074 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* YatriPulse.app */,
+				00E356EE1AD99517003FC87E /* YatriPulseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-YatriPulse.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-YatriPulse.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-YatriPulse-YatriPulseTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-YatriPulse-YatriPulseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C118650C2B7213CF005256E8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C11865122B721694005256E8 /* AntDesign.ttf */,
+				C118651A2B721695005256E8 /* Entypo.ttf */,
+				C118650D2B721694005256E8 /* EvilIcons.ttf */,
+				C11865102B721694005256E8 /* Feather.ttf */,
+				C118651E2B721695005256E8 /* FontAwesome.ttf */,
+				C11865132B721694005256E8 /* FontAwesome5_Brands.ttf */,
+				C11865142B721694005256E8 /* FontAwesome5_Regular.ttf */,
+				C118651F2B721695005256E8 /* FontAwesome5_Solid.ttf */,
+				C118651B2B721695005256E8 /* FontAwesome6_Brands.ttf */,
+				C118650E2B721694005256E8 /* FontAwesome6_Regular.ttf */,
+				C11865192B721695005256E8 /* FontAwesome6_Solid.ttf */,
+				C11865182B721694005256E8 /* Fontisto.ttf */,
+				C11865152B721694005256E8 /* Foundation.ttf */,
+				C118651C2B721695005256E8 /* Ionicons.ttf */,
+				C11865162B721694005256E8 /* MaterialCommunityIcons.ttf */,
+				C118650F2B721694005256E8 /* MaterialIcons.ttf */,
+				C118651D2B721695005256E8 /* Octicons.ttf */,
+				C11865112B721694005256E8 /* SimpleLineIcons.ttf */,
+				C11865172B721694005256E8 /* Zocial.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* YatriPulseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "YatriPulseTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = YatriPulseTests;
+			productName = YatriPulseTests;
+			productReference = 00E356EE1AD99517003FC87E /* YatriPulseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* YatriPulse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "YatriPulse" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YatriPulse;
+			productName = YatriPulse;
+			productReference = 13B07F961A680F5B00A75B9A /* YatriPulse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "YatriPulse" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* YatriPulse */,
+				00E356ED1AD99517003FC87E /* YatriPulseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C118652B2B721695005256E8 /* AntDesign.ttf in Resources */,
+				C118653B2B721695005256E8 /* Entypo.ttf in Resources */,
+				C11865212B721695005256E8 /* EvilIcons.ttf in Resources */,
+				C118652F2B721695005256E8 /* FontAwesome5_Regular.ttf in Resources */,
+				C11865312B721695005256E8 /* Foundation.ttf in Resources */,
+				C11865432B721695005256E8 /* FontAwesome.ttf in Resources */,
+				C11865412B721695005256E8 /* Octicons.ttf in Resources */,
+				C11865232B721695005256E8 /* FontAwesome6_Regular.ttf in Resources */,
+				C11865452B721695005256E8 /* FontAwesome5_Solid.ttf in Resources */,
+				C11865392B721695005256E8 /* FontAwesome6_Solid.ttf in Resources */,
+				C11865292B721695005256E8 /* SimpleLineIcons.ttf in Resources */,
+				C11865372B721695005256E8 /* Fontisto.ttf in Resources */,
+				C11865352B721695005256E8 /* Zocial.ttf in Resources */,
+				C118653F2B721695005256E8 /* Ionicons.ttf in Resources */,
+				C118653D2B721695005256E8 /* FontAwesome6_Brands.ttf in Resources */,
+				C11865332B721695005256E8 /* MaterialCommunityIcons.ttf in Resources */,
+				C11865272B721695005256E8 /* Feather.ttf in Resources */,
+				C118652D2B721695005256E8 /* FontAwesome5_Brands.ttf in Resources */,
+				C11865252B721695005256E8 /* MaterialIcons.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				C118653A2B721695005256E8 /* Entypo.ttf in Resources */,
+				C11865402B721695005256E8 /* Octicons.ttf in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				C11865342B721695005256E8 /* Zocial.ttf in Resources */,
+				A59297E1A92B44BAA4F5C3D7 /* Roboto-Black.ttf in Resources */,
+				C11865222B721695005256E8 /* FontAwesome6_Regular.ttf in Resources */,
+				F4AC6DF1EFB14FC5B100C55B /* Roboto-BlackItalic.ttf in Resources */,
+				D52CF83F01E14D129C6AAE66 /* Roboto-Bold.ttf in Resources */,
+				C11865442B721695005256E8 /* FontAwesome5_Solid.ttf in Resources */,
+				C11865302B721695005256E8 /* Foundation.ttf in Resources */,
+				C11865362B721695005256E8 /* Fontisto.ttf in Resources */,
+				D5EA1882AA134FABB8C0C830 /* Roboto-BoldItalic.ttf in Resources */,
+				7C07394E35764FA2B06E373B /* Roboto-Italic.ttf in Resources */,
+				C11865262B721695005256E8 /* Feather.ttf in Resources */,
+				8B2656DD84F64CA381A671E1 /* Roboto-Light.ttf in Resources */,
+				BB164C10E1354B9B8E53350F /* Roboto-LightItalic.ttf in Resources */,
+				C11865282B721695005256E8 /* SimpleLineIcons.ttf in Resources */,
+				C118652C2B721695005256E8 /* FontAwesome5_Brands.ttf in Resources */,
+				68EB98BC0CD141C3A1A19588 /* Roboto-Medium.ttf in Resources */,
+				C11865422B721695005256E8 /* FontAwesome.ttf in Resources */,
+				C118652E2B721695005256E8 /* FontAwesome5_Regular.ttf in Resources */,
+				C11865242B721695005256E8 /* MaterialIcons.ttf in Resources */,
+				C118653E2B721695005256E8 /* Ionicons.ttf in Resources */,
+				C118652A2B721695005256E8 /* AntDesign.ttf in Resources */,
+				007322873DB4484A9B42DCA0 /* Roboto-MediumItalic.ttf in Resources */,
+				658C55DE42BB483684623CD0 /* Roboto-Regular.ttf in Resources */,
+				472D66104D5F4885A9563E48 /* Roboto-Thin.ttf in Resources */,
+				C118653C2B721695005256E8 /* FontAwesome6_Brands.ttf in Resources */,
+				C11865202B721695005256E8 /* EvilIcons.ttf in Resources */,
+				C11865322B721695005256E8 /* MaterialCommunityIcons.ttf in Resources */,
+				C11865382B721695005256E8 /* FontAwesome6_Solid.ttf in Resources */,
+				FFAC326C83C84753B3C5B812 /* Roboto-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YatriPulse/Pods-YatriPulse-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YatriPulse/Pods-YatriPulse-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YatriPulse/Pods-YatriPulse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YatriPulse-YatriPulseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YatriPulse-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YatriPulse-YatriPulseTests/Pods-YatriPulse-YatriPulseTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YatriPulse-YatriPulseTests/Pods-YatriPulse-YatriPulseTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YatriPulse-YatriPulseTests/Pods-YatriPulse-YatriPulseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YatriPulse/Pods-YatriPulse-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YatriPulse/Pods-YatriPulse-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YatriPulse/Pods-YatriPulse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YatriPulse-YatriPulseTests/Pods-YatriPulse-YatriPulseTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YatriPulse-YatriPulseTests/Pods-YatriPulse-YatriPulseTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YatriPulse-YatriPulseTests/Pods-YatriPulse-YatriPulseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* YatriPulseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* YatriPulse */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-YatriPulse-YatriPulseTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YatriPulseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YatriPulse.app/YatriPulse";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-YatriPulse-YatriPulseTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = YatriPulseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YatriPulse.app/YatriPulse";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-YatriPulse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R9J8NFLY36;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = YatriPulse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.YatriPulse;
+				PRODUCT_NAME = YatriPulse;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-YatriPulse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R9J8NFLY36;
+				INFOPLIST_FILE = YatriPulse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.YatriPulse;
+				PRODUCT_NAME = YatriPulse;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "YatriPulseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "YatriPulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "YatriPulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

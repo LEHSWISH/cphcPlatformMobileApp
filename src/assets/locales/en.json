@@ -1,0 +1,42 @@
+{
+  "common_success_messages": {
+    "login_success": "Logged in successfully"
+  },
+  "common_error_messages": {
+    "something_went_wrong": "We're sorry!.Something went wrong, Please try again",
+    "no_content_to_display": "No Content to display",
+    "token-expired": "Please login again, token expired",
+    "login_failed_invalid": "Login failed, invalid credentials"
+  },
+  "common_action_text": {
+    "continue": "Continue",
+    "submit": "Submit",
+    "save": "Save"
+  },
+  "locate_RHF": {
+    "description_1": "Locate your nearest local medical facility for your health check-ups and upload the certificate to the portal.",
+    "description_2": "Lists of Medical Facility",
+    "state_label": "State",
+    "city_village_label": "City/Village",
+    "button_label_search": "Search Facility",
+    "label_select_state": "Select State",
+    "label_select_city": "Select City",
+    "label_search": "Search",
+    "label_facility_id": "Facility ID",
+    "label_facility_type": "Facility Type",
+    "label_Ownership": "Ownership",
+    "label_address": "Address",
+    "label_facility_status": "Facility Status",
+    "label_abdm_enabled": "ABDM Enabled"
+  },
+  "govtId": {
+    "description_message": "Provide your Government Identification",
+    "govt_id_type": "Government ID type",
+    "govt_id": "Government ID",
+    "label_select_govt_id": "Select government ID",
+    "label_govt_id": "Select government ID type"
+  },
+  "abhaViaAadhaar": {
+    "enter_valid_aadhaar_number": "Please enter a valid aadhaar number"
+  }
+}
