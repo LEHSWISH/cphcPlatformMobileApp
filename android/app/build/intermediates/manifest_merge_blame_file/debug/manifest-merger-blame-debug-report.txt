@@ -1,0 +1,177 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yatripulse"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:5:5-79
+12-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+13-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:6:5-7:40
+13-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:6:22-79
+14    <uses-permission
+14-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:8:5-9:38
+15        android:name="android.permission.READ_EXTERNAL_STORAGE"
+15-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:8:22-77
+16        android:maxSdkVersion="33" />
+16-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:9:9-35
+17    <uses-permission
+17-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:10:5-12:40
+18        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+18-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:10:22-78
+19        android:maxSdkVersion="33" />
+19-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:11:9-35
+20    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+20-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:13:5-76
+20-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:13:22-73
+21    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+21-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:14:5-75
+21-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:14:22-72
+22    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+22-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:15:5-75
+22-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:15:22-72
+23    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required to access Google Play Licensing -->
+23-->[:react-native-community_netinfo] /home/lehs/Desktop/cphcPlatformMobileApp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-76
+23-->[:react-native-community_netinfo] /home/lehs/Desktop/cphcPlatformMobileApp/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-73
+24    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+24-->[:rn-fetch-blob] /home/lehs/Desktop/cphcPlatformMobileApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-73
+24-->[:rn-fetch-blob] /home/lehs/Desktop/cphcPlatformMobileApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-70
+25    <!--
+26         Required to keep CPU alive while downloading files
+27        (NOT to keep screen awake)
+28    -->
+29    <uses-permission android:name="android.permission.WAKE_LOCK" />
+29-->[:rn-fetch-blob] /home/lehs/Desktop/cphcPlatformMobileApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:5-68
+29-->[:rn-fetch-blob] /home/lehs/Desktop/cphcPlatformMobileApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:22-65
+30    <!--
+31    This manifest file is used only by Gradle to configure debug-only capabilities
+32    for React Native Apps.
+33    -->
+34    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+34-->[com.facebook.react:react-android:0.73.2] /home/lehs/.gradle/caches/transforms-3/d10d040f6dc36d35e250d48d5ebb15bd/transformed/jetified-react-android-0.73.2-debug/AndroidManifest.xml:16:5-78
+34-->[com.facebook.react:react-android:0.73.2] /home/lehs/.gradle/caches/transforms-3/d10d040f6dc36d35e250d48d5ebb15bd/transformed/jetified-react-android-0.73.2-debug/AndroidManifest.xml:16:22-75
+35
+36    <permission
+36-->[androidx.core:core:1.9.0] /home/lehs/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+37        android:name="com.yatripulse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+37-->[androidx.core:core:1.9.0] /home/lehs/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+38        android:protectionLevel="signature" />
+38-->[androidx.core:core:1.9.0] /home/lehs/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+39
+40    <uses-permission android:name="com.yatripulse.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+40-->[androidx.core:core:1.9.0] /home/lehs/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+40-->[androidx.core:core:1.9.0] /home/lehs/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+41
+42    <application
+42-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:17:5-37:19
+43        android:name="com.yatripulse.MainApplication"
+43-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:18:7-38
+44        android:allowBackup="false"
+44-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:22:7-34
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.9.0] /home/lehs/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+46        android:debuggable="true"
+47        android:extractNativeLibs="true"
+48        android:icon="@mipmap/ic_launcher"
+48-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:20:7-41
+49        android:label="@string/app_name"
+49-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:19:7-39
+50        android:roundIcon="@mipmap/ic_launcher_round"
+50-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:21:7-52
+51        android:theme="@style/AppTheme"
+51-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:23:7-38
+52        android:usesCleartextTraffic="true" >
+52-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/debug/AndroidManifest.xml:6:9-44
+53        <activity
+53-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:24:7-36:18
+54            android:name="com.yatripulse.MainActivity"
+54-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:25:9-37
+55            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+55-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:27:9-118
+56            android:exported="true"
+56-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:30:9-32
+57            android:label="@string/app_name"
+57-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:26:9-41
+58            android:launchMode="singleTask"
+58-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:28:9-40
+59            android:windowSoftInputMode="adjustPan" >
+59-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:29:9-48
+60            <intent-filter>
+60-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:31:9-35:25
+61                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+61-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:32:14-79
+61-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:32:22-76
+62                <action android:name="android.intent.action.MAIN" />
+62-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:33:13-65
+62-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:33:21-62
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:34:13-73
+64-->/home/lehs/Desktop/cphcPlatformMobileApp/android/app/src/main/AndroidManifest.xml:34:23-70
+65            </intent-filter>
+66        </activity>
+67
+68        <provider
+68-->[:rn-fetch-blob] /home/lehs/Desktop/cphcPlatformMobileApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-40:20
+69            android:name="com.RNFetchBlob.Utils.FileProvider"
+69-->[:rn-fetch-blob] /home/lehs/Desktop/cphcPlatformMobileApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-62
+70            android:authorities="com.yatripulse.provider"
+70-->[:rn-fetch-blob] /home/lehs/Desktop/cphcPlatformMobileApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-60
+71            android:exported="false"
+71-->[:rn-fetch-blob] /home/lehs/Desktop/cphcPlatformMobileApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-37
+72            android:grantUriPermissions="true" >
+72-->[:rn-fetch-blob] /home/lehs/Desktop/cphcPlatformMobileApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-47
+73            <meta-data
+73-->[:rn-fetch-blob] /home/lehs/Desktop/cphcPlatformMobileApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-39:58
+74                android:name="android.support.FILE_PROVIDER_PATHS"
+74-->[:rn-fetch-blob] /home/lehs/Desktop/cphcPlatformMobileApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:17-67
+75                android:resource="@xml/provider_paths" />
+75-->[:rn-fetch-blob] /home/lehs/Desktop/cphcPlatformMobileApp/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:17-55
+76        </provider>
+77
+78        <activity
+78-->[com.facebook.react:react-android:0.73.2] /home/lehs/.gradle/caches/transforms-3/d10d040f6dc36d35e250d48d5ebb15bd/transformed/jetified-react-android-0.73.2-debug/AndroidManifest.xml:19:9-21:40
+79            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+79-->[com.facebook.react:react-android:0.73.2] /home/lehs/.gradle/caches/transforms-3/d10d040f6dc36d35e250d48d5ebb15bd/transformed/jetified-react-android-0.73.2-debug/AndroidManifest.xml:20:13-77
+80            android:exported="false" />
+80-->[com.facebook.react:react-android:0.73.2] /home/lehs/.gradle/caches/transforms-3/d10d040f6dc36d35e250d48d5ebb15bd/transformed/jetified-react-android-0.73.2-debug/AndroidManifest.xml:21:13-37
+81
+82        <provider
+82-->[androidx.emoji2:emoji2:1.2.0] /home/lehs/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+83            android:name="androidx.startup.InitializationProvider"
+83-->[androidx.emoji2:emoji2:1.2.0] /home/lehs/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+84            android:authorities="com.yatripulse.androidx-startup"
+84-->[androidx.emoji2:emoji2:1.2.0] /home/lehs/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+85            android:exported="false" >
+85-->[androidx.emoji2:emoji2:1.2.0] /home/lehs/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+86            <meta-data
+86-->[androidx.emoji2:emoji2:1.2.0] /home/lehs/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+87-->[androidx.emoji2:emoji2:1.2.0] /home/lehs/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+88                android:value="androidx.startup" />
+88-->[androidx.emoji2:emoji2:1.2.0] /home/lehs/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/lehs/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+90-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/lehs/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+91                android:value="androidx.startup" />
+91-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/lehs/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+92        </provider>
+93
+94        <meta-data
+94-->[com.facebook.soloader:soloader:0.10.5] /home/lehs/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+95            android:name="com.facebook.soloader.enabled"
+95-->[com.facebook.soloader:soloader:0.10.5] /home/lehs/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+96            android:value="false" />
+96-->[com.facebook.soloader:soloader:0.10.5] /home/lehs/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+97    </application>
+98
+99</manifest>

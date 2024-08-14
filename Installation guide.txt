@@ -1,0 +1,146 @@
+Installation Guide 
+ 
+
+Setup Steps 
+
+React Native Version: 0.73.2 
+
+Java JDK: 17 
+
+1. Clone the Repository 
+
+    Open a terminal window. 
+
+    Navigate to the directory where you want to clone the project. 
+
+    Clone the repository from GitHub using the following command: 
+
+ 
+
+# Enter in terminal 
+git clone -b <branch-name> <repository-url> 
+ 
+
+    Replace <branch-name> with the name of the branch you want to clone. 
+
+    Replace <repository-url> with the URL of the GitHub repository. 
+     
+
+branch-name= dham_mb_v.0 
+ 
+
+    Navigate into the project directory: 
+     
+    # Enter in terminal 
+
+cd <project-directory> 
+
+Replace <project-directory> with the name of the cloned project folder. 
+
+ 
+
+# Example- 
+cd cphcPlatformMobileApp 
+
+ 
+
+2. Install Dependencies 
+
+    Install the necessary npm packages: 
+     
+
+# Enter in terminal 
+
+npm install 
+
+ 
+
+ 
+ 
+
+3. Project Structure 
+ 
+      src/ 
+
+    Purpose: Contains your application’s source code. This directory is not created by default but is a common convention to organize your code. 
+     
+
+Structure: 
+ 
+
+    assets/: Stores static files such as images, fonts, and other media assets. 
+
+    classes/: This folder is responsible for handling HTTP requests, managing authorization, and processing responses using Axios 
+
+    components/: Contains reusable React components. 
+
+    enums/: Contains API endpoints. 
+
+    environment/: Contains environment-specific configurations or settings. 
+
+    interfaces/: TypeScript interfaces that define the structure of API responses. 
+
+    navigation/: Contains setup and logic for routing and navigation in your application 
+
+    screens/: Contains components that represent different screens or views in your app. 
+
+    services/: Contains services or API interaction logic. 
+
+    Styles/: Stores styling-related files. 
+
+    utils/: The file contains constant values used throughout your application. 
+
+    validations/: This folder might include functions or schemas used to validate user input or data, such as form validation or data integrity checks. 
+     
+     
+
+Commands to run the application: 
+
+ 
+
+4. Start the Metro Server 
+
+    Open a terminal window. 
+
+    Navigate to the root directory of your React Native project.  
+    cd <project-directory> 
+     
+    For example, if your project folder is named cphcPlatformMobileApp, use the following command: 
+     
+
+# Enter in terminal 
+cd cphcPlatformMobileApp 
+ 
+
+5. Run the Application 
+
+    Open a new terminal window from the root of your React Native project. 
+
+    Run the application for Android or iOS: 
+
+ 
+
+           # Enter in terminal 
+              npm run android 
+
+ 
+
+ 
+
+ 
+
+   
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
